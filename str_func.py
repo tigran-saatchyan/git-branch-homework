@@ -1,7 +1,20 @@
 def str_to_upper(substr):
     """
-    Alter text to uppercase
-    :param substr: - string to change
-    :return: - new string transformed to uppercase
+    Transforms test to 'upper' style text
+    :param substr: text to convert
+    :type substr: string
+    :return: converted text
+    :rtype: string
     """
     return substr.upper()
+
+
+def str_to_title(substr):
+    """
+    Transforms test to 'Title' style text
+    :param substr: text to convert
+    :type substr: string
+    :return: converted text
+    :rtype: string
+    """
+    return substr.title()
