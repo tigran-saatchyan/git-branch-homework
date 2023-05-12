@@ -1,3 +1,5 @@
+""" Utils module *Fix* """
+
 def str_to_upper(substr):
     """
     Transforms test to 'upper' style text
@@ -18,3 +20,4 @@ def str_to_title(substr):
     :rtype: string
     """
     return substr.title()
+
